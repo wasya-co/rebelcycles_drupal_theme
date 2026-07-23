@@ -1,72 +1,92 @@
+
 :root {
   --text-color: #eee;
   --text-color-2: #f0f0f0;
   --bg-color: #454545;
-  --bg-color-2: #292929; }
+  --bg-color-2: #292929;
+}
+
 
 body {
   color: var(--text-color);
-  background: var(--bg-color); }
+  background: var(--bg-color);
+}
 
 #page,
 #main-wrapper,
 .region-primary-menu .menu-item a.is-active,
 .region-primary-menu .menu-item--active-trail a {
-  background: var(--bg-color); }
+  background: var(--bg-color);
+}
 
 .tabs ul.primary li a.is-active {
-  background-color: var(--bg-color); }
+  background-color: var(--bg-color);
+}
 
 .tabs ul.primary li.is-active a {
   background-color: var(--bg-color);
-  border-bottom-color: var(--bg-color); }
+  border-bottom-color: var(--bg-color);
+}
+
+
+// #navbar-main {
+//   background-color: #1d84c3;
+// }
 
 a,
 .link {
-  color: #0071b3; }
+  color: #0071b3;
+}
 
 a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-  color: #018fe2; }
-
+  color: #018fe2;
+}
 .nav-item .dropdown-item a.active {
-  color: white; }
-
+  color: white;
+}
 .nav-link {
-  color: #e7e7e7; }
-
+  color: rgb(231, 231, 231);
+}
 .nav-link:hover,
 .nav-link:focus {
-  color: #e7e7e7; }
-
+  color: rgb(231, 231, 231);
+}
 a:active,
 .link:active {
-  color: #23aeff; }
+  color: #23aeff;
+}
 
 .page-item.active .page-link {
   background-color: #0071b3;
-  border-color: #0071b3; }
+  border-color: #0071b3;
+}
 
 .page-link,
 .page-link:hover {
-  color: #0071b3; }
+  color: #0071b3;
+}
 
 .sidebar .block {
   background-color: #f6f6f2;
-  border-color: #f9f9f9; }
+  border-color: #f9f9f9;
+}
 
 .btn-primary {
   background-color: #007bff;
-  border-color: #007bff; }
+  border-color: #007bff;
+}
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #0256b1; }
+  background-color: #0256b1;
+}
 
 .site-footer {
-  background: #292929; }
+  background: #292929;
+}
 
 .region-header,
 .region-header a,
@@ -77,16 +97,22 @@ a:active,
 .region-header .site-branding a,
 .region-secondary-menu .menu-item a,
 .region-secondary-menu .menu-item a.is-active {
-  color: #fffeff; }
+  color: #fffeff;
+}
+
 
 /* ---------- Color Form ----------- */
+
 [dir="rtl"] .color-form .color-palette {
   margin-left: 0;
-  margin-right: 20px; }
+  margin-right: 20px;
+}
 
 [dir="rtl"] .color-form .form-item label {
-  float: right; }
+  float: right;
+}
 
 [dir="rtl"] .color-form .color-palette .lock {
   right: -20px;
-  left: 0; }
+  left: 0;
+}
