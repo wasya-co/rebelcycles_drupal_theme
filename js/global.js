@@ -2,12 +2,12 @@
  * @file
  * Global utilities.
  *
- */
+**/
 (function (Drupal) {
 
   'use strict';
 
-  Drupal.behaviors.bootstrap_barrio_subtheme = {
+  Drupal.behaviors.rebelcycles_drupal_theme = {
     attach: function (context, settings) {
 
     }

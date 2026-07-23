@@ -1,5 +1,4 @@
-# Schema for the configuration files of the Bootstrap Barrio Subtheme.
 
-bootstrap_barrio_subtheme.settings:
+rebelcycles_drupal_theme.settings:
   type: bootstrap_barrio.settings
-  label: 'Bootstrap Barrio settings'
+  label: 'Rebelcycles drup th settings'
