@@ -1,0 +1,17 @@
+{
+    "name": "wasya-co/rebelcycles_drupal_theme",
+    "type": "drupal-theme",
+    "description": "Rebel Cycles Drupal Theme",
+    "homepage": "https://wasyaco.com/?utm_campaign=rebelcycles_drupal_theme",
+    "authors": [
+      {
+        "name": "Victor Pudeyev",
+        "role": "Maintainer"
+      }
+    ],
+    "require": {
+      "drupal/core": "^9 || ^10 || ^11"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+  }
