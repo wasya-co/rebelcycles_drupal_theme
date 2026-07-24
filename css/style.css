@@ -41,17 +41,12 @@
 #navbar-main {
   max-width: var(--maxwidth);
   margin: auto;
-  display: flex; }
+  display: flex;
+  flex-wrap: nowrap; }
 
 @media (max-width: 767px) {
   #navbar-main {
     display: none; } }
-
-@media (min-width: 767px) {
-  #navbar-main {
-    width: var(--maxwidth); }
-  .region-top-header {
-    width: var(--maxwidth); } }
 
 a.navbar-brand {
   color: var(--text-color);
