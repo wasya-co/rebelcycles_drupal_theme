@@ -5,8 +5,8 @@ core_version_requirement: ^10.3 || ^11
 base theme: bootstrap_barrio
 
 libraries:
-  - rebelcycles_drupal_theme/bootstrap_cdn
-  - rebelcycles_drupal_theme/global-styling
+  - rebelcycles_drupal_theme/main
+
 
 regions:
   top_header: 'Top header'

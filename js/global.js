@@ -8,7 +8,7 @@
     }
   };
 
-  console.log($, "+++ loaded rebelcycles_drupal_theme");
+  console.log("+++ loaded rebelcycles_drupal_theme", $);
 })(Drupal);
 
 
