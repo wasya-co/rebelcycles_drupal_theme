@@ -11,6 +11,6 @@ done
 
 
 
-    git tag -a v0.0.1 -m "Release v0.0.1"
-    git push origin v0.0.1
+    git tag -a v0.0.4 -m "Release v0.0.4"
+    git push origin v0.0.4
 
