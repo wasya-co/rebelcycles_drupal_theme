@@ -2,6 +2,8 @@
 
 
 function rebelcycles_drupal_theme_preprocess_page(array &$variables) {
+  $variables['#attached']['library'][] = 'ish_drupal_module/vendor';
+  $variables['#attached']['library'][] = 'ish_drupal_module/main';
   $variables['#attached']['library'][] = 'ish_drupal_module/fancy_header';
   $variables['#attached']['library'][] = 'rebelcycles_drupal_theme/main';
 }

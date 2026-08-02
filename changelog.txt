@@ -2,3 +2,6 @@
 0.0.0 :: 2026-07-24 :: LFG
   v0.0.3 :: 2026-07-28 :: minimally acceptable again, with ish_drupal_module v2.1.2
   v0.0.4 ::            :: combined menu hidden on desktop
+  v0.0.5 - deployed to rebel-cycles
+  v0.0.6 - re-attaching ish_drupal_module/vendor, for the scroll reveal
+
