@@ -4,4 +4,4 @@
   v0.0.4 ::            :: combined menu hidden on desktop
   v0.0.5 - deployed to rebel-cycles
   v0.0.6 - re-attaching ish_drupal_module/vendor, for the scroll reveal
-
+  v0.0.7 - narrower cards on mobile. slightly improved header, center-aligned.

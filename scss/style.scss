@@ -32,6 +32,7 @@
 .region-header {
   width: 100%;
   display: flex;
+  align-items: center;
 }
 
 .navbar-toggler {
@@ -75,5 +76,14 @@
 
     max-width: 400px;
     text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .tns-slider {
+    article.node--type-slide,
+    .node--view-mode-teaser {
+
+      max-width: 60vw;
+    }
   }
 }
