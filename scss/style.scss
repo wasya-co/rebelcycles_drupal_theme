@@ -29,21 +29,33 @@
 .navbar-brand {
   margin: 0 1rem;
 }
+.region-header {
+  width: 100%;
+  display: flex;
+}
 
 .navbar-toggler {
-  background: #999;
-  margin-right: 1em;
+  display: none;
+  // background: #999;
+  // margin-right: 1em;
 }
+
 @media (min-width: 767px) {
   #CollapsingNavbar .block-menu {
+    display: none;
+  }
+  .block-superfishmain-menu-combined {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .block-superfish {
+
+  .block-superfishmain,
+  .block-superfishmain-menu-right {
     display: none;
   }
+
   .navbar-brand {
     img {
       max-height: var(--header-height);
@@ -54,5 +66,14 @@
 .site-footer {
   .nav {
     flex-direction: column;
+  }
+}
+
+.tns-slider {
+  article.node--type-slide,
+  .node--view-mode-teaser {
+
+    max-width: 400px;
+    text-align: center;
   }
 }
